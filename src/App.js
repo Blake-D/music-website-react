@@ -1,7 +1,7 @@
 // import React, { Link, Route, BrowserRouter as Router } from 'react-router-dom'
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import SwiperCore from 'swiper'
+import SwiperCore, { Navigation, Pagination } from 'swiper'
 import 'swiper/swiper-bundle.css'
 // import { useState } from 'react'
 import './styles.css'
@@ -9,6 +9,8 @@ import './styles.css'
 // import test2 from './components/test2'
 // import test3 from './components/test3'
 // import test4 from './components/test4'
+
+SwiperCore.use([Navigation, Pagination])
 
 function App() {
   const slides = []
@@ -22,7 +24,17 @@ function App() {
   }
 
   return <React.Fragment>
-    <Swiper tag="section" wrapperTag="ul" id="main">
+    <Swiper id="main" 
+            tag="section" 
+            wrapperTag="ul" 
+            navigation 
+            pagination 
+            spaceBetween={0} 
+            slidesPerView={1} 
+            onInit={(swiper) => console.log('Swiper Initialized!')}
+            onSlideChange={(swiper) => {console.log('Slide index changed to: ', swiper.activeIndex)}}
+            onReachEnd={() => console.log('Swiper end reached')}
+            >
       {slides}
     </Swiper>
   </React.Fragment>
