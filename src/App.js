@@ -17,13 +17,36 @@ function App() {
   const slides = []
   for(let i = 0; i < 5; i++){
     slides.push(
-      <SwiperSlide key={`slide-${i}`} tag="li">
+      <SwiperSlide key={`slide-${i}`}>
         <img src={`https://picsum.photos/id/${i+1}/500/300`} style={{ listStyle: 'none' }} alt={`Slide ${i}` } />
       </SwiperSlide>
     )
   }
 
-  return <React.Fragment>
+  const slides2 = []
+  for(let i = 6; i < 11; i++){
+    slides2.push(
+      <SwiperSlide key={`slide-${i}`}>
+        <img src={`https://picsum.photos/id/${i+1}/500/300`} style={{ listStyle: 'none' }} alt={`Slide ${i}` } />
+      </SwiperSlide>
+    )
+  }
+
+  return (
+  <React.Fragment>
+    <Swiper id="main" 
+            tag="section"  
+            navigation 
+            pagination
+            effect="cube"
+            spaceBetween={0} 
+            slidesPerView={1} 
+            onInit={(swiper) => console.log('Swiper Initialized!')}
+            onSlideChange={(swiper) => {console.log('Slide index changed to: ', swiper.activeIndex)}}
+            onReachEnd={() => console.log('Swiper end reached')}>
+      {slides}
+    </Swiper>
+
     <Swiper id="main" 
             tag="section" 
             wrapperTag="ul" 
@@ -35,9 +58,10 @@ function App() {
             onInit={(swiper) => console.log('Swiper Initialized!')}
             onSlideChange={(swiper) => {console.log('Slide index changed to: ', swiper.activeIndex)}}
             onReachEnd={() => console.log('Swiper end reached')}>
-      {slides}
+      {slides2}
     </Swiper>
   </React.Fragment>
+  )
 
   // return (
   //   <div>
