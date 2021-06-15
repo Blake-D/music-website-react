@@ -30,8 +30,9 @@ body{
 
 .parallax__layer--back{
   transform: translateZ(-1px);
+  height: 200vh;
   background: url('./images/home_pic.jpg');
-  background-position: 0 -100px;
+  background-position: 0 -300px;
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: -100vw;
