@@ -5,25 +5,19 @@ import Pic from './images/home_pic.jpg'
 
 function App() {
   return (
-    <div id="body">
-      <div className="parallax">
-      <div className="parallax__layer parallax__layer--back"></div>
+    <div className="parallax">
+      <div className="parallax__group">
+        <div className="parallax__layer parallax__layer--back">
+          back
+        </div>
         <div className="parallax__layer parallax__layer--base">
-          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
-          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
-          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
-          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
-          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
-          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
-          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
-          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
+          base
         </div>
       </div>
+      <div className="parallax__group">
+        testing
+      </div>
     </div>
-    // <div id="body">
-    //   <Header />
-    //   <div id="test-area">testing</div>
-    // </div>
   )
 }
 
