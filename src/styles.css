@@ -1,6 +1,10 @@
+body{
+  margin: 0px 0px 0px 0px;
+}
+
 .parallax{
   perspective: 1px;
-  height: 100vh;
+  height: 50vh;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -21,24 +25,10 @@
 .parallax__layer--back{
   transform: translateZ(-1px);
   background: url('./images/home_pic.jpg');
-  background-position: 20 -200px;
+  background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: -100vw;
   margin-right: -100vw;
   z-index: 0;
 }
-
-/* html{
-  height: 100%;
-  background: url('./images/home_pic.jpg');
-  background-position: 0 -100px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#test-area{
-  background-color: blue;
-  margin-top: 100px;
-  height: 1000px;
-} */

@@ -7,19 +7,17 @@ function App() {
   return (
     <div id="body">
       <div className="parallax">
+      <div className="parallax__layer parallax__layer--back"></div>
         <div className="parallax__layer parallax__layer--base">
-          <h1>kjsdhfljasdhflsuhDFLshdflkshDFLshdfljshdflsdlfjsldjfsljdf</h1><br></br>
-          <h1>kjsdhfljasdhflsuhDFLshdflkshDFLshdfljshdflsdlfjsldjfsljdf</h1><br></br>
-          <h1>kjsdhfljasdhflsuhDFLshdflkshDFLshdfljshdflsdlfjsldjfsljdf</h1><br></br>
-          <h1>kjsdhfljasdhflsuhDFLshdflkshDFLshdfljshdflsdlfjsldjfsljdf</h1><br></br>
-          <h1>kjsdhfljasdhflsuhDFLshdflkshDFLshdfljshdflsdlfjsldjfsljdf</h1><br></br>
-          <h1>kjsdhfljasdhflsuhDFLshdflkshDFLshdfljshdflsdlfjsldjfsljdf</h1><br></br>
-          <h1>kjsdhfljasdhflsuhDFLshdflkshDFLshdfljshdflsdlfjsldjfsljdf</h1><br></br>
-          <h1>kjsdhfljasdhflsuhDFLshdflkshDFLshdfljshdflsdlfjsldjfsljdf</h1><br></br>
-          <h1>kjsdhfljasdhflsuhDFLshdflkshDFLshdfljshdflsdlfjsldjfsljdf</h1><br></br>
-          <h1>kjsdhfljasdhflsuhDFLshdflkshDFLshdfljshdflsdlfjsldjfsljdf</h1><br></br>
+          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
+          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
+          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
+          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
+          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
+          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
+          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
+          <h1>kljksdjbvksjdbvksjdbvsdbvsdbvsDv</h1><br></br>
         </div>
-        <div className="parallax__layer parallax__layer--back"></div>
       </div>
     </div>
     // <div id="body">
