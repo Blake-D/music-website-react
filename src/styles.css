@@ -1,7 +1,44 @@
-html{
+.parallax{
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax__layer{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax__layer--base{
+  transform: translateZ(0);
+  z-index: 1;
+}
+
+.parallax__layer--back{
+  transform: translateZ(-1px);
+  background: url('./images/home_pic.jpg');
+  background-position: 20 -200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -100vw;
+  margin-right: -100vw;
+  z-index: 0;
+}
+
+/* html{
   height: 100%;
   background: url('./images/home_pic.jpg');
-  background-position: 0 -200px;
+  background-position: 0 -100px;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#test-area{
+  background-color: blue;
+  margin-top: 100px;
+  height: 1000px;
+} */
