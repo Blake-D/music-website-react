@@ -1,9 +1,12 @@
 import React from 'react'
 import './styles.css'
+import Header from './components/header'
 
 function App() {
   return (
-    <h1>sanity check</h1>
+    <div id="body">
+      <Header />
+    </div>
   )
 }
 
