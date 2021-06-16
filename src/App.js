@@ -6,8 +6,7 @@ import Header from './components/header'
 function App() {
   return (
     <div id="header">
-      <h1>Parallax Effect</h1>
-      <p>Pure CSS // No JavaScript !</p>
+      <Header />
       <div id="bio">
         <p>blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p><br></br>
         <p>blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p><br></br>
