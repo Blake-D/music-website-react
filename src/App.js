@@ -6,7 +6,7 @@ import Contact from './components/contact'
 
 function App() {
   return (
-    <div id="header">
+    <div id="body">
       <Header />
       <Blurb />
       <Contact />

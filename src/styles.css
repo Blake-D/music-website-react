@@ -15,7 +15,7 @@ body{
   /* font-family: "Luna"; */
 }
 
-#header{
+#body{
   box-sizing: border-box;
   min-height: 100vh;
   padding: 30vw 0 5vw;
@@ -25,11 +25,11 @@ body{
   margin-top: -100px;
 }
 
-#header, #header:before {
+#body, #body:before {
   background: 70% 50% / cover;
 }
 
-#header::before{
+#body::before{
   bottom: 10;
   content: "";
   left: 0;
@@ -44,23 +44,27 @@ body{
   min-height: 100vh;
 }
 
-#header * {
+#body * {
   font-weight: normal;
   letter-spacing: 0.2em;
-  text-align: center;
+  /* text-align: center; */
   margin: 0;
   padding: 1em 0;
 }
 
+#header{
+  text-align: center;
+}
+
 #blurb{
   text-align: center;
-  background-color: lightgray;
+  background-color: rgb(206, 184, 138);
   overflow-wrap: normal;
   margin-top: 60vh;
 }
 
 #contact{
   text-align: center;
-  background-color: rgb(151, 36, 36);
+  background-color: rgb(175, 61, 32);
   overflow-wrap: normal;
 }
