@@ -30,7 +30,7 @@ body{
 }
 
 #header::before{
-  bottom: 0;
+  bottom: 10;
   content: "";
   left: 0;
   position: absolute;
@@ -57,4 +57,10 @@ body{
   background-color: lightgray;
   overflow-wrap: normal;
   margin-top: 60vh;
+}
+
+#contact{
+  text-align: center;
+  background-color: rgb(151, 36, 36);
+  overflow-wrap: normal;
 }
