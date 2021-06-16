@@ -2,12 +2,14 @@ import React from 'react'
 import './styles.css'
 import Pic from './images/home_pic.jpg'
 import Header from './components/header'
+import Blurb from './components/blurb'
 
 function App() {
   return (
     <div id="header">
       <Header />
-      <div id="bio">
+      <Blurb />
+      {/* <div id="bio">
         <p>blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p><br></br>
         <p>blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p><br></br>
         <p>blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p><br></br>
@@ -18,7 +20,7 @@ function App() {
         <p>blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p><br></br>
         <p>blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p><br></br>
         <p>blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p><br></br>
-      </div>
+      </div> */}
     </div>
     // <div className="parallax">
     //   <div className="parallax__group">

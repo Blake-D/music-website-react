@@ -38,10 +38,6 @@ body{
   top: 0;
   display: block;
   background-image: url('./images/sax.jpg');
-  /* background-image: url('./images/home_pic.jpg'); */
-  /* background: no-repeat center center cover; */
-  /* background-size: contain; */
-  /* background-repeat: no-repeat; */
   transform-origin: center center 0;
   transform: translateZ(-1px) scale(2);
   z-index: -1;
@@ -56,56 +52,9 @@ body{
   padding: 1em 0;
 }
 
-#bio{
-  background-color: lightgrey;
+#blurb{
+  text-align: center;
+  background-color: lightgray;
+  overflow-wrap: normal;
   margin-top: 60vh;
 }
-
-
-
-
-
-/* **********8 */
-
-
-/* body{
-  margin: 0px 0px 0px 0px;
-}
-
-.parallax__group{
-  position: relative;
-  height: 100vh;
-  transform-style: preserve-3d;
-}
-
-.parallax{
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-.parallax__layer{
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.parallax__layer--base{
-  transform: translateZ(0);
-  z-index: 1;
-}
-
-.parallax__layer--back{
-  transform: translateZ(-1px);
-  height: 200vh;
-  background: url('./images/home_pic.jpg');
-  background-position: 0 -300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: -100vw;
-  margin-right: -100vw;
-  z-index: 0;
-} */
