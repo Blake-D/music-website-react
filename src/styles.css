@@ -15,7 +15,7 @@ body{
   /* font-family: "Luna"; */
 }
 
-#body{
+#home{
   box-sizing: border-box;
   min-height: 100vh;
   padding: 30vw 0 5vw;
@@ -25,11 +25,11 @@ body{
   margin-top: -100px;
 }
 
-#body, #body:before {
+#home, #home:before {
   background: 70% 50% / cover;
 }
 
-#body::before{
+#home::before{
   bottom: 10;
   content: "";
   left: 0;
@@ -44,7 +44,7 @@ body{
   min-height: 100vh;
 }
 
-#body * {
+#home * {
   font-weight: normal;
   letter-spacing: 0.2em;
   /* text-align: center; */

@@ -1,15 +1,11 @@
 import React from 'react'
 import './styles.css'
-import Header from './components/header'
-import Blurb from './components/blurb'
-import Contact from './components/contact'
+import Home from './components/home'
 
 function App() {
   return (
-    <div id="body">
-      <Header />
-      <Blurb />
-      <Contact />
+    <div>
+      <Home />
     </div>
   )
 }
