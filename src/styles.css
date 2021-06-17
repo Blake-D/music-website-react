@@ -63,8 +63,14 @@ body{
   margin-top: 60vh;
 }
 
-#contact{
+#song-of-week{
   text-align: center;
   background-color: rgb(175, 61, 32);
+  overflow-wrap: normal;
+}
+
+#contact{
+  text-align: center;
+  background-color: rgb(206, 184, 138);
   overflow-wrap: normal;
 }
