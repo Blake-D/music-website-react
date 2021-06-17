@@ -1,7 +1,6 @@
 import React from 'react'
-import '../styles.css'
+import '../../../src/styles.css'
 import Header from './header'
-// import Header from './components/header'
 import Blurb from './blurb'
 import Contact from './contact'
 

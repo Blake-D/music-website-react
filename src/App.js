@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './styles.css'
-import Home from './components/home'
+import Home from './components/home/home'
 import Bio from './components/bio'
 import Recordings from './components/recordings'
 import Scores from './components/scores'
