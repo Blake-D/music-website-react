@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../../src/styles.css'
 import Header from './header'
 import Blurb from './blurb'
 import Contact from './contact'
