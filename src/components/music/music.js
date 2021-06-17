@@ -4,8 +4,11 @@ import { Link } from 'react-router-dom'
 function Music(){
     return(
         <div>
-            <Link to="/music/recordings">Recordings</Link><br></br>
-            <Link to="/music/scores">Scores</Link>
+            <Link to="/music/piano">Piano</Link><br></br>
+            <Link to="/music/strings">Strings</Link><br></br>
+            <Link to="/music/vocal">Vocal</Link><br></br>
+            <Link to="/music/electronic">Electronic</Link><br></br>
+            <Link to="/music/chamber-misc">Chamber/Misc</Link>
         </div>
     )
 }
