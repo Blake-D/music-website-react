@@ -1,7 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import './styles.css'
 import Home from './components/home/home'
+import Nav from './components/nav'
 import Bio from './components/bio'
 import Collab from './components/collab'
 import Philosophy from './components/philosophy'
@@ -14,8 +16,9 @@ import ChamberMisc from './components/music/chamber-misc'
 
 function App() {
   return (
-    <Router>
-      <div>
+    <div>
+      <Router>
+        <Nav />
         <Route exact path="/" render={Home}/>
         <Route exact path="/bio" render={Bio}/>
         <Route exact path="/collab" render={Collab}/>
@@ -26,8 +29,8 @@ function App() {
         <Route exact path="/music/vocal" render={Vocal}/>
         <Route exact path="/music/electronic" render={Electronic}/>
         <Route exact path="/music/chamber-misc" render={ChamberMisc}/>
-      </div>
-    </Router>
+      </Router>
+    </div>
   )
 }
 
