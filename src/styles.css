@@ -12,7 +12,6 @@ body{
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  /* font-family: "Luna"; */
 }
 
 #home{
@@ -60,7 +59,7 @@ body{
   text-align: center;
   background-color: rgb(206, 184, 138);
   overflow-wrap: normal;
-  margin-top: 60vh;
+  margin-top: 50vh;
 }
 
 #song-of-week{
@@ -73,4 +72,9 @@ body{
   text-align: center;
   background-color: rgb(206, 184, 138);
   overflow-wrap: normal;
+}
+
+#nav{
+  text-align: center;
+  padding-top: 0;
 }

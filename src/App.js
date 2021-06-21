@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-// import { Link } from 'react-router-dom'
 import './styles.css'
 import Home from './components/home/home'
 import Nav from './components/nav'
@@ -18,7 +17,6 @@ function App() {
   return (
     <div>
       <Router>
-        <Nav />
         <Route exact path="/" render={Home}/>
         <Route exact path="/bio" render={Bio}/>
         <Route exact path="/collab" render={Collab}/>
